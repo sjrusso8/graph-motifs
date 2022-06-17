@@ -11,4 +11,6 @@ The data used for this demo was sourced from the Neo4j example movie dataset.
 
 ## Setup
 
-I used an Azure Databricks workspace with a small cluster running Spark 10.4 LTS ML. The Spark ML versions have GraphFrames pre-installed on the cluster. I loaded the data into a storage account and saved the data as a hive table with the code in the notebook [load_movie_data](notebooks/load_movie_data). 
+I used an Azure Databricks workspace with a small cluster running Spark 10.4 LTS ML. The Spark ML versions have GraphFrames pre-installed on the cluster. 
+
+I loaded the data into a storage account and saved the data as a hive table with the code in the notebook [load_movie_data](https://github.com/sjrusso8/graph-motifs/blob/main/notebooks/load_movie_data.py). 

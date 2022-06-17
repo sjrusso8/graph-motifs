@@ -39,10 +39,6 @@ display(movie_graph.edges)
 
 # COMMAND ----------
 
-display(df_edges)
-
-# COMMAND ----------
-
 # MAGIC %md
 # MAGIC ### Example 1 : Simple Motif
 # MAGIC 
@@ -145,19 +141,3 @@ display(
         )
         .where(F.size('network_path') > 1)
 )
-
-# COMMAND ----------
-
-motifs = (
-  movie_graph
-    .find("(actor)-[relation]->(movie)")
-)
-
-motifs.createOrReplaceTempView('motifs')
-
-# COMMAND ----------
-
-# MAGIC %sql
-# MAGIC SELECT *
-# MAGIC FROM motifs
-# MAGIC WHERE movie.properties.title = 'The Matrix'

@@ -2,7 +2,7 @@
 
 This repo contains some examples of using the 'motif finding' DSL language that is a part of the GraphFrame packages for Apache Spark. The documentation for GraphFrames Motif finding can be found here: [GraphFrames Motif Finding](graphframes.github.io/graphframes/docs/_site/user-guide.html#motif-finding)
 
-The accompanying Medium article with a detailed walkthrough of the examples in this repo can be found here: [3 Examples of Motifs with Spark GraphFrames]()
+The accompanying Medium article with a detailed walkthrough of the examples in this repo can be found here: [3 Examples of Motifs with Spark GraphFrames](https://medium.com/@sjrusso/3-examples-of-motifs-with-spark-graphframes-db873b3fdc8a)
 
 ## Data Used
 The data used for this demo was sourced from the Neo4j example movie dataset. 
